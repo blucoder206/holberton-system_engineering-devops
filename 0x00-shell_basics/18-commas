@@ -1,1 +1,1 @@
-sort | ls -amp
+ls -amp
