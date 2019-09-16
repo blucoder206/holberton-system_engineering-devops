@@ -1,2 +1,2 @@
 #!/bin/bash
-declare -r BETTY=holberton
+declare BETTY=holberton
