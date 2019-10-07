@@ -1,8 +1,8 @@
-# README.md
+# GNU/Linux basic shell commands
 
-## GNU/Linux basic shell commands
+## Tasks
 
-In this project we will do some excersises to understand how linux shell works!
-
-
-1245@holbertonschool.com
+* Shell basics
+* Shell permissions
+* Shell redirections
+* Shell variable expansions
