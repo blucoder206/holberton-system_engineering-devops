@@ -1,0 +1,6 @@
+#!/usr/bin/env bash
+# List files of current directory (ls) using for loop statment
+for i in *;
+do
+	printf '%s\n' "${i#*-}" 
+done
