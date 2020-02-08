@@ -5,9 +5,9 @@ hours=0
 while [ $hours -le 12 ]; do
 	echo "Hour: $hours"
 	minutes=1
-	while [ $minutes -le 60 ]; do
+	while [ $minutes -le 59 ]; do
 		echo "$minutes"
-		((minutes++))
+		let "minutes += 1"
 	done
 	let "hours += 1"
 done
