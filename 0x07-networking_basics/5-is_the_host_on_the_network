@@ -1,0 +1,7 @@
+#!/usr/bin/env bash
+# Test the reachability of a host with the network utility 'ping'. Usage: ./is_the_host_on_the_network 8.8.8.8
+if [ "$1" ]; then
+	ping -c 5 $1
+else
+	echo "Usage: 5-is_the_host_on_the_network $1"
+fi
