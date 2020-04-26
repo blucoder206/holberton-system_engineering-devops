@@ -1,3 +1,0 @@
-#!/usr/bin/env bash
-# Listens on port 98 using netcat network utility. 
-nc -l 98

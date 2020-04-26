@@ -1,4 +1,0 @@
-#!/usr/bin/env bash
-# Display the source IP and HTTP code from apache-access.log
-
-awk '{ print $1, $9}' apache-access.log | sort | uniq -c | sort -nr
